@@ -1,0 +1,6 @@
+.board-wrap{width:420px;height:420px;position:relative;border-radius:38px;transform:rotateX(48deg) rotateZ(-8deg);box-shadow:0 65px 85px #000c,0 0 90px #4d55ff38;animation:boardImageFloat 5s ease-in-out infinite;overflow:hidden;background:#121936}
+.board-image{display:block;width:100%;height:100%;object-fit:cover;border-radius:38px}
+.board-shine{position:absolute;z-index:2;inset:0;background:linear-gradient(120deg,#ffffff1f 0,transparent 30%,transparent 70%,#6d7cff12);pointer-events:none}
+@keyframes boardImageFloat{50%{transform:rotateX(48deg) rotateZ(-5deg) translateY(-9px)}}
+@media(max-width:600px){.board-wrap{width:410px;height:410px}}
+@media(prefers-reduced-motion:reduce){.board-wrap,.pawn,.floating-dice{animation:none!important}}
