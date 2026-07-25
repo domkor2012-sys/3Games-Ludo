@@ -1,5 +1,8 @@
 .brand-logo img{width:48px;height:48px;display:block;object-fit:cover;border-radius:14px;box-shadow:0 10px 28px #4d5dff45}
 .brand-logo:hover img{transform:translateY(-2px) rotate(-2deg);transition:transform .3s ease}
+.launch-button{display:inline-flex;align-items:center;padding:19px 21px;border:1px solid #806dff66;border-radius:15px;background:linear-gradient(120deg,#7753eb,#4daee9);color:#fff;font-weight:800;box-shadow:0 15px 42px #6749d944;transition:transform .3s ease,box-shadow .3s ease}
+.launch-button:hover{transform:translateY(-4px);box-shadow:0 22px 55px #684cde66}
+.launch-button b{font-size:9px;letter-spacing:.13em;margin-left:20px;padding-left:20px;border-left:1px solid #ffffff38}
 .board-wrap{width:420px;height:420px;position:relative;border-radius:38px;transform:rotateX(48deg) rotateZ(-8deg);box-shadow:0 65px 85px #000c,0 0 90px #4d55ff38;animation:boardImageFloat 5s ease-in-out infinite;overflow:hidden;background:#121936}
 .board-image{display:block;width:100%;height:100%;object-fit:cover;border-radius:38px}
 .board-shine{position:absolute;z-index:2;inset:0;background:linear-gradient(120deg,#ffffff1f 0,transparent 30%,transparent 70%,#6d7cff12);pointer-events:none}
